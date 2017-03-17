@@ -38,7 +38,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.CallDSAPI = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -127,17 +127,16 @@
             this.textBox5.Size = new System.Drawing.Size(245, 20);
             this.textBox5.TabIndex = 8;
             this.textBox5.Text = "login_info?api_password=true";
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
-            // button1
+            // CallDSAPI
             // 
-            this.button1.Location = new System.Drawing.Point(368, 116);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Call DS API";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.CallDSAPI.Location = new System.Drawing.Point(368, 116);
+            this.CallDSAPI.Name = "CallDSAPI";
+            this.CallDSAPI.Size = new System.Drawing.Size(107, 23);
+            this.CallDSAPI.TabIndex = 10;
+            this.CallDSAPI.Text = "Call DS API";
+            this.CallDSAPI.UseVisualStyleBackColor = true;
+            this.CallDSAPI.Click += new System.EventHandler(this.CallDSAPI_Click);
             // 
             // textBox6
             // 
@@ -163,7 +162,7 @@
             this.ClientSize = new System.Drawing.Size(577, 308);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.CallDSAPI);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label4);
@@ -193,7 +192,7 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button CallDSAPI;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label6;
     }
