@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace TDD
 {
-    class dsResponse
+    public class dsResponse
     {
+        public string response { get; set; }
+        public bool responseOK { get; set; }
+        public string responseError { get; set; }
+        public string responseErrorResponse { get; set; }
+        public string responseCode { get; set; }
     }
 }

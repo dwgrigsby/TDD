@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TDD;
 
+
 namespace TDDUnitTest
 {
     [TestClass]
@@ -29,6 +30,12 @@ namespace TDDUnitTest
 
             Assert.AreEqual(expectedResult, _tbresults.Text);
 
+        }
+        [TestMethod]
+        public void UtilityXDSAuthHeaderValueTest()
+        {
+            const string expectedResult = "{\"Username\":\"1\",\"Password\":\"2\",\"IntegratorKey\":\"3\"}";
+            Assert.AreEqual(DSUtilities.XDSAuthHeaderValue("1", "2", "3"), expectedResult);
         }
     }
 }
