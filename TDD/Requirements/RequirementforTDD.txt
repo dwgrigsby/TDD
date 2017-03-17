@@ -1,0 +1,7 @@
+﻿Requirements for TDD Project
+a. Use Text box values for values to us in call DocuSign API login_information
+b. Create a service broker to call the DocuSign API login_information
+c. Create related service broker utility methods to setup requests for service broker
+d. Crewte related service broker utility methods to tear down response from service broker
+e. Click the call docusign api button call the service broker and utilty methods with the text box values
+f. Place the response into the multi-line text box for results
