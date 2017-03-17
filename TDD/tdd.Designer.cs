@@ -59,7 +59,6 @@
             this.label1.Size = new System.Drawing.Size(29, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "User";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -86,7 +85,6 @@
             this.label3.Size = new System.Drawing.Size(40, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = "Int Key";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox3
             // 
@@ -139,6 +137,7 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "Call DS API";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox6
             // 
@@ -156,7 +155,6 @@
             this.label6.Size = new System.Drawing.Size(89, 13);
             this.label6.TabIndex = 12;
             this.label6.Text = "Result of API Call";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // tdd
             // 
