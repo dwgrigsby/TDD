@@ -19,7 +19,7 @@ namespace TDD
 
 
 
-        private void CallDSAPI_Click(object sender, EventArgs e)
+        public void CallDSAPI_Click(object sender, EventArgs e)
         {
 
         }
