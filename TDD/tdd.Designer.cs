@@ -39,7 +39,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.CallDSAPI = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.TbResults = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -138,13 +138,14 @@
             this.CallDSAPI.UseVisualStyleBackColor = true;
             this.CallDSAPI.Click += new System.EventHandler(this.CallDSAPI_Click);
             // 
-            // textBox6
+            // TbResults
             // 
-            this.textBox6.Location = new System.Drawing.Point(104, 154);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(403, 142);
-            this.textBox6.TabIndex = 11;
+            this.TbResults.Location = new System.Drawing.Point(104, 154);
+            this.TbResults.Multiline = true;
+            this.TbResults.Name = "TbResults";
+            this.TbResults.Size = new System.Drawing.Size(403, 142);
+            this.TbResults.TabIndex = 11;
+            this.TbResults.Text = "No Result";
             // 
             // label6
             // 
@@ -161,7 +162,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(577, 308);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.TbResults);
             this.Controls.Add(this.CallDSAPI);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox5);
@@ -193,7 +194,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Button CallDSAPI;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox TbResults;
         private System.Windows.Forms.Label label6;
     }
 }
