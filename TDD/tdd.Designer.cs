@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TbUserName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TbPassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.TbIntKey = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.TbURI = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.TbLoginURI = new System.Windows.Forms.TextBox();
             this.CallDSAPI = new System.Windows.Forms.Button();
             this.TbResults = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // TbUserName
             // 
-            this.textBox1.Location = new System.Drawing.Point(104, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(202, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "dgrigsby@grigsbyconsultingllc.com";
+            this.TbUserName.Location = new System.Drawing.Point(104, 12);
+            this.TbUserName.Name = "TbUserName";
+            this.TbUserName.Size = new System.Drawing.Size(202, 20);
+            this.TbUserName.TabIndex = 0;
+            this.TbUserName.Text = "dgrigsby@grigsbyconsultingllc.com";
             // 
             // label1
             // 
@@ -69,13 +69,13 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Password";
             // 
-            // textBox2
+            // TbPassword
             // 
-            this.textBox2.Location = new System.Drawing.Point(104, 38);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(202, 20);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "p@ssW0rdAZ09";
+            this.TbPassword.Location = new System.Drawing.Point(104, 38);
+            this.TbPassword.Name = "TbPassword";
+            this.TbPassword.Size = new System.Drawing.Size(202, 20);
+            this.TbPassword.TabIndex = 2;
+            this.TbPassword.Text = "P1ffoIdNbatKf537ghKlB1At98o=";
             // 
             // label3
             // 
@@ -86,13 +86,13 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Int Key";
             // 
-            // textBox3
+            // TbIntKey
             // 
-            this.textBox3.Location = new System.Drawing.Point(104, 64);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(245, 20);
-            this.textBox3.TabIndex = 4;
-            this.textBox3.Text = "GCLL-24fc8a04-7fbc-4a12-b547-4d02bde7dd28";
+            this.TbIntKey.Location = new System.Drawing.Point(104, 64);
+            this.TbIntKey.Name = "TbIntKey";
+            this.TbIntKey.Size = new System.Drawing.Size(245, 20);
+            this.TbIntKey.TabIndex = 4;
+            this.TbIntKey.Text = "GCLL-24fc8a04-7fbc-4a12-b547-4d02bde7dd28";
             // 
             // label4
             // 
@@ -103,13 +103,13 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "URI";
             // 
-            // textBox4
+            // TbURI
             // 
-            this.textBox4.Location = new System.Drawing.Point(104, 90);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(245, 20);
-            this.textBox4.TabIndex = 6;
-            this.textBox4.Text = "https://demo.docusign.net/restapi/v2/";
+            this.TbURI.Location = new System.Drawing.Point(104, 90);
+            this.TbURI.Name = "TbURI";
+            this.TbURI.Size = new System.Drawing.Size(245, 20);
+            this.TbURI.TabIndex = 6;
+            this.TbURI.Text = "https://demo.docusign.net/restapi/v2/";
             // 
             // label5
             // 
@@ -120,13 +120,13 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "URI - Login Info";
             // 
-            // textBox5
+            // TbLoginURI
             // 
-            this.textBox5.Location = new System.Drawing.Point(104, 116);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(245, 20);
-            this.textBox5.TabIndex = 8;
-            this.textBox5.Text = "login_info?api_password=true";
+            this.TbLoginURI.Location = new System.Drawing.Point(104, 116);
+            this.TbLoginURI.Name = "TbLoginURI";
+            this.TbLoginURI.Size = new System.Drawing.Size(245, 20);
+            this.TbLoginURI.TabIndex = 8;
+            this.TbLoginURI.Text = "login_information?api_password=true";
             // 
             // CallDSAPI
             // 
@@ -165,15 +165,15 @@
             this.Controls.Add(this.TbResults);
             this.Controls.Add(this.CallDSAPI);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.TbLoginURI);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.TbURI);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.TbIntKey);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.TbPassword);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TbUserName);
             this.Name = "tdd";
             this.Text = "tdd";
             this.ResumeLayout(false);
@@ -183,16 +183,16 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TbUserName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TbPassword;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox TbIntKey;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox TbURI;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox TbLoginURI;
         private System.Windows.Forms.Button CallDSAPI;
         private System.Windows.Forms.TextBox TbResults;
         private System.Windows.Forms.Label label6;
