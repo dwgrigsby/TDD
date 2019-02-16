@@ -9,6 +9,9 @@ https://blog.grigsbyconsultingllc.com/test-driven-development-tools-for-develope
 Slides at:
 https://blog.grigsbyconsultingllc.com/wp-content/uploads/CGS3001-20170317-DavidWGrigsby.pptx
 
+Tested on: Visual Studio Community 2015 TDD Project (Windows)
+
+[Note: App will run on Visual Studio Community for Mac 2017/2019, however the MSTest(s) will not without changes. Plan is to create a new branch in the near future for this configuration support 2019-02-16]
 
 There are three branches to see each phase with the final state as master:
 
