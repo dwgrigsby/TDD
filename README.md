@@ -1,5 +1,8 @@
 # TDD
-TDD 
+<img src="https://blog.grigsbyconsultingllc.com/wp-content/uploads/GCLLCBannerLogov1.gif" />
+
+Background
+=========
 
 I was given a fantastic opportunity to speak to the undergraduate students at the University of North Florida taking course CGS3001: Current Trends in Computing Technology 1 http://www.unf.edu/catalog/link/UGCGS3001C/ Friday, March 17th, 2017.
 
@@ -9,10 +12,16 @@ https://blog.grigsbyconsultingllc.com/test-driven-development-tools-for-develope
 Slides at:
 https://blog.grigsbyconsultingllc.com/wp-content/uploads/CGS3001-20170317-DavidWGrigsby.pptx
 
+
+Testing:
+=========
+
 Tested on: Visual Studio Community 2015 TDD Project (Windows)
 
-[Note: App will run on Visual Studio Community for Mac 2017/2019, however the MSTest(s) will not without changes. Plan is to create a new branch in the near future for this configuration support 2019-02-16]
+[Note: App will run on Visual Studio Community for Mac 2017/2019, however the MSTest(s) will not run without changes. Plan is to create a new branch in the near future for this configuration support 2019-02-16]
 
+Branches
+=========
 There are three branches to see each phase with the final state as master:
 
 BaseFromUX – This is how the project was handed to the developer from UX and Solution Architect
@@ -21,6 +30,7 @@ FinalTestPasses – This is our test passing after adding code and one additiona
 The requirements are below from the project Requirements.txt:
 
 Requirements for TDD Project
+=========
 
 a. Use Text box values for values to us in call DocuSign API login_information
 
